@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Regression</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h1>Cabs Fare Price Prediction</h1>
+        <form class="form" action="/predict">
+            <div class="mb-3">
+                <label>Source:</label>
+                <select class="form-control" name="source">
+                    <option value="Black Bay">Black Bay</option>
+                    <option value="Beacon Bill">Beacon Bill</option>
+                    <option value="Boston University">Boston University</option>
+                    <option value="Fenway">Fenway</option>
+                    <option value="Financial District">Financial District</option>
+	<option value="Haymarket Squrare">Haymarket Squrare</option>
+                    <option value="North End">North End</option>
+                    <option value="North Station">North Station</option>
+                    <option value="Northeastern University">Northeastern University</option>
+                    <option value="South Station">South Station</option>
+                </select>
+            </div>
+             <div class="mb-3">
+                <label>Destination:</label>
+                <select class="form-control" name="destination">
+                    <option value="Black Bay">Black Bay</option>
+                    <option value="Beacon Bill">Beacon Bill</option>
+                    <option value="Boston University">Boston University</option>
+                    <option value="Fenway">Fenway</option>
+                    <option value="Financial District">Financial District</option>
+	<option value="Haymarket Squrare">Haymarket Squrare</option>
+                    <option value="North End">North End</option>
+                    <option value="North Station">North Station</option>
+                    <option value="Northeastern University">Northeastern University</option>
+                    <option value="South Station">South Station</option>
+                </select>
+            </div>
+             <div class="mb-3">
+                <label>Cab Type:</label>
+                <select class="form-control" name="cab_type">
+                    <option value="Uber">Uber</option>
+                    <option value="Lyft">Lyft</option>
+                </select>
+            </div>
+             <div class="mb-3">
+                <label>Type:</label>
+                <select class="form-control" name="type">
+                    <option value="Uber -> Black">Uber -> Black</option>
+                    <option value="Uber -> Black SUV">Uber -> Black SUV</option>
+                    <option value="Uber -> Uber Pool">Uber -> Uber Pool</option>
+	<option value="Uber -> Uber X">Uber -> Uber X</option>
+                    <option value="Uber -> Uber XL">Uber -> Uber XL</option>
+                    <option value="Uber -> WAV">Uber -> WAV</option>
+	  <option value="Lyft -> Shared">Lyft -> Shared</option>
+                    <option value="Lyft -> Lux">Lyft -> Lux</option>
+                    <option value="Lyft -> Lux Black">Lyft -> Lux Black</option>
+                    <option value="Lyft -> Lux Black XL">Lyft -> Lux Black XL</option>
+                    <option value="Lyft -> Lyft">Lyft -> Lyft</option>
+	<option value="Lyft -> Lyft XL">Lyft -> Lyft XL</option>
+                </select>
+            </div>
+             <div class="mb-3">
+                <label>Day:</label>
+                <select class="form-control" name="day">
+                    <option value="Sunday">Sunday</option>
+                    <option value="Monday">Monday</option>
+                    <option value="Tuesday">Tuesday</option>
+                    <option value="Wednesday">Wednesday</option>
+                    <option value="Thursday">Thursday</option>
+	<option value="Friday">Friday</option>
+                    <option value="Saturday">Saturday</option>
+                </select>
+            </div>
+             
+             
+
+            <div class="mb-3">
+                <input class="btn btn-success" type="submit">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
